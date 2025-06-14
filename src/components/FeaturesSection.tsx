@@ -6,33 +6,33 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: <Zap className="h-8 w-8 text-blue-600" />,
-      title: "Generación Automática",
-      description: "Algoritmos inteligentes que crean horarios optimizados en segundos, considerando todas las restricciones y preferencias."
+      title: "Automatización Eficiente",
+      description: "Organiza horarios optimizados en segundos, considerando todas las asignaciones y preferencias desde un solo panel."
     },
     {
       icon: <Users className="h-8 w-8 text-green-600" />,
-      title: "Gestión de Grupos",
-      description: "Organiza múltiples grupos, clases y recursos con facilidad. Visualiza conflictos y disponibilidad en tiempo real."
+      title: "Gestión Centralizada",
+      description: "Administra grupos, clases y recursos fácilmente. Consulta y actualiza disponibilidad en tiempo real desde cualquier dispositivo."
     },
     {
       icon: <BookOpen className="h-8 w-8 text-purple-600" />,
       title: "Panel Docente",
-      description: "Interfaz dedicada para profesores con vista personalizada de sus horarios, aulas y recursos asignados."
+      description: "Interfaz exclusiva para profesores con acceso rápido a horarios, materias y recursos asignados."
     },
     {
       icon: <Calendar className="h-8 w-8 text-orange-600" />,
-      title: "Calendario Inteligente",
-      description: "Visualización intuitiva con vista diaria, semanal y mensual. Exporta a Google Calendar o Outlook con un clic."
+      title: "Calendario Integrado",
+      description: "Vista diaria, semanal y mensual. Exporta horarios o consúltalos en tu móvil cuando lo necesites."
     },
     {
       icon: <Clock className="h-8 w-8 text-red-600" />,
-      title: "Optimización Temporal",
-      description: "Minimiza tiempos muertos y maximiza la eficiencia. Considera desplazamientos entre aulas y descansos necesarios."
+      title: "Optimización de Tiempo",
+      description: "Minimiza tiempos muertos y facilita la gestión eficiente de las clases. Toda la información, siempre actualizada."
     },
     {
       icon: <Award className="h-8 w-8 text-indigo-600" />,
-      title: "Reportes Avanzados",
-      description: "Estadísticas detalladas, análisis de ocupación y reportes de eficiencia para tomar mejores decisiones."
+      title: "Reportes Detallados",
+      description: "Acceso a estadísticas y reportes para la toma de mejores decisiones en la administración escolar."
     }
   ];
 
@@ -41,10 +41,10 @@ const FeaturesSection = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-            Características Poderosas
+            Características Destacadas
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Todo lo que necesitas para gestionar horarios de manera profesional y eficiente
+            Todo lo que necesitas para simplificar la gestión educativa y mejorar la comunicación
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
