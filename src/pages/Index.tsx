@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -9,6 +8,7 @@ import BenefitsSection from "@/components/BenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import StatsSection from "@/components/StatsSection";
 import CTASection from "@/components/CTASection";
+import VisionSection from "@/components/VisionSection";
 
 const Index = () => {
   return (
@@ -16,6 +16,7 @@ const Index = () => {
       <HeroSection />
       <StatsSection />
       <FeaturesSection />
+      <VisionSection />
       <BenefitsSection />
       <TestimonialsSection />
       <CTASection />
