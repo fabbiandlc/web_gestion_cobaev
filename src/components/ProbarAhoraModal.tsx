@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { X } from "lucide-react";
 
 const ProbarAhoraModal = ({ buttonClassName = "" }: { buttonClassName?: string }) => {
   const [open, setOpen] = useState(false);
@@ -30,8 +31,15 @@ const ProbarAhoraModal = ({ buttonClassName = "" }: { buttonClassName?: string }
       </Button>
       {open && (
         <div className="fixed z-50 inset-0 flex items-center justify-center bg-black/40">
-          <div className="bg-white rounded-xl shadow-2xl p-6 w-full max-w-md animate-fade-in">
-            <button className="absolute top-2 right-3 text-2xl text-muted-foreground" onClick={() => setOpen(false)} aria-label="Cerrar">×</button>
+          <div className="bg-white rounded-xl shadow-2xl p-6 w-full max-w-md animate-fade-in relative">
+            <button
+              className="absolute top-3 right-3 text-muted-foreground hover:bg-gray-100 rounded-full p-2 transition"
+              onClick={() => setOpen(false)}
+              aria-label="Cerrar"
+              type="button"
+            >
+              <X className="h-6 w-6" />
+            </button>
             <h3 className="text-xl font-bold mb-2 text-foreground">Solicita tu APK</h3>
             {!enviado ? (
               <form onSubmit={handleSubmit} className="space-y-4">

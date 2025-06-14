@@ -13,10 +13,7 @@ const HeroSection = () => {
           App multiplataforma educativa
         </Badge>
         <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-          Gestión de Horarios
-          <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent"> Escolar Simplificada</span>
-          <br />
-          Para Toda la Comunidad
+          Gestión de Horarios Escolar
         </h1>
         <p className="mb-8 text-xl text-muted-foreground sm:text-2xl max-w-3xl mx-auto leading-relaxed">
           Organiza y digitaliza tus horarios de clases y docentes en un solo lugar. Accede desde tu móvil o computadora: seguro, rápido y centralizado.
