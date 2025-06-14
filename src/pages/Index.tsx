@@ -9,13 +9,15 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import StatsSection from "@/components/StatsSection";
 import CTASection from "@/components/CTASection";
 import VisionSection from "@/components/VisionSection";
+import CapturasDePantallaSection from "@/components/CapturasDePantallaSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <HeroSection />
+      <CapturasDePantallaSection />
       <StatsSection />
-      <FeaturesSection />
+      {/* <FeaturesSection /> Sección eliminada */}
       <VisionSection />
       <BenefitsSection />
       <TestimonialsSection />

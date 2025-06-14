@@ -1,7 +1,7 @@
 
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
+import ProbarAhoraModal from "./ProbarAhoraModal";
 
 const HeroSection = () => {
   return (
@@ -19,19 +19,13 @@ const HeroSection = () => {
           Para Toda la Comunidad
         </h1>
         <p className="mb-8 text-xl text-muted-foreground sm:text-2xl max-w-3xl mx-auto leading-relaxed">
-          Digitaliza y organiza tus horarios de clases y docentes en un solo lugar. Accede y gestiona desde tu móvil o computadora: seguro, rápido y centralizado.
+          Organiza y digitaliza tus horarios de clases y docentes en un solo lugar. Accede desde tu móvil o computadora: seguro, rápido y centralizado.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all duration-300">
-            <Calendar className="mr-2 h-5 w-5" />
-            Empezar Ahora
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 hover:bg-gray-50 transition-colors">
-            Ver Demo
-          </Button>
+        <div className="flex flex-col gap-4 justify-center items-center">
+          <ProbarAhoraModal buttonClassName="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto" />
         </div>
         <p className="mt-4 text-sm text-muted-foreground">
-          ✨ Accesible desde cualquier dispositivo • Ahorra tiempo, elimina papeles
+          ✨ Accesible desde cualquier dispositivo • Mejor organización, menos esfuerzo
         </p>
       </div>
     </section>
