@@ -17,7 +17,7 @@ const CTASection = () => {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
           <div className="text-blue-100">
             <div className="text-2xl font-bold text-white">Acceso inmediato</div>
-            <div className="text-sm">Disponible móvil y web</div>
+            <div className="text-sm">Disponible para Android</div>
           </div>
           <div className="text-blue-100">
             <div className="text-2xl font-bold text-white">Sin instalación</div>

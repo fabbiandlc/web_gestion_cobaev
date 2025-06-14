@@ -1,4 +1,3 @@
-
 import { CalendarCheck, Users, ShieldCheck, BarChart3, RefreshCcw } from "lucide-react";
 
 const items = [
@@ -6,7 +5,7 @@ const items = [
     icon: <CalendarCheck className="h-8 w-8 text-blue-600 mb-2" />,
     title: "Gestión Centralizada y Eficiente",
     description:
-      "Administra horarios de docentes, asigna materias y grupos, y genera estadísticas en tiempo real en una única plataforma digital accesible. Olvídate de documentos físicos y la información dispersa: todo está centralizado y fácilmente consultable."
+      "Administra horarios de docentes, asigna materias y grupos, y genera estadísticas en tiempo real en una única aplicación móvil accesible. Olvídate de documentos físicos y la información dispersa: todo está centralizado y fácilmente consultable."
   },
   {
     icon: <Users className="h-8 w-8 text-green-600 mb-2" />,
