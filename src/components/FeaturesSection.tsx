@@ -12,7 +12,7 @@ const FeaturesSection = () => {
     {
       icon: <Users className="h-8 w-8 text-green-600" />,
       title: "Gestión Centralizada",
-      description: "Administra grupos, clases y recursos fácilmente. Consulta y actualiza disponibilidad en tiempo real desde cualquier dispositivo."
+      description: "Administra grupos y clases fácilmente."
     },
     {
       icon: <BookOpen className="h-8 w-8 text-purple-600" />,

@@ -5,24 +5,24 @@ import AnimatedSection from "@/components/ui/animated-section";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "María González",
-      role: "Directora Académica",
-      institution: "Instituto Tecnológico Madrid",
-      content: "Hemos reducido el tiempo de creación de horarios de 2 semanas a 30 minutos. Es increíble cómo la IA maneja todas las restricciones automáticamente.",
+      name: "Lic. Jessica Astrid Martínez Salomón",
+      role: "Subdirectora Académica",
+      institution: "Cobaev 18",
+      content: "Hemos reducido el tiempo de creación de horarios de 2 semanas a 30 minutos, es increíble.",
       rating: 5
     },
     {
-      name: "Prof. Carlos Ruiz",
-      role: "Docente de Matemáticas",
-      institution: "Universidad Complutense",
-      content: "Finalmente puedo ver todos mis horarios de forma clara y recibir notificaciones cuando hay cambios. La app es intuitiva y muy útil.",
+      name: "Dra. Ana Liliana Borrego Vázquez",
+      role: "Directora del Plantel",
+      institution: "Cobaev 18",
+      content: "Esta herramienta nos pone por encima del nivel de productividad de cualquier otro plantel.",
       rating: 5
     },
     {
-      name: "Ana Martín",
-      role: "Coordinadora Académica",
-      institution: "Colegio San Patricio",
-      content: "Los reportes de ocupación nos han ayudado a optimizar nuestros espacios. Ahora podemos planificar mejor los recursos de la institución.",
+      name: "Lic. Natalia Velueta Mendoza",
+      role: "Auxiliar Administrativa",
+      institution: "Cobaev 18",
+      content: "He necesitado esta aplicación hace más de 20 años, no sé cuánto tiempo desperdicié antes de haber usado esta aplicación.",
       rating: 5
     }
   ];
@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
         <AnimatedSection animation="fade-in">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-              Lo Que Dicen Nuestros Usuarios
+              Lo que dicen nuestros usuarios
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Miles de educadores confían en nosotros para gestionar sus horarios

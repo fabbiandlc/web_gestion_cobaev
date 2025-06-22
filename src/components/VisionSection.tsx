@@ -1,4 +1,4 @@
-import { CalendarCheck, Users, ShieldCheck, BarChart3, RefreshCcw } from "lucide-react";
+import { CalendarCheck, Users, ShieldCheck, BarChart3, RefreshCcw, FileText } from "lucide-react";
 import AnimatedSection from "@/components/ui/animated-section";
 
 const items = [
@@ -6,13 +6,13 @@ const items = [
     icon: <CalendarCheck className="h-8 w-8 text-blue-600 mb-2" />,
     title: "Gestión Centralizada y Eficiente",
     description:
-      "Administra horarios de docentes, asigna materias y grupos, y genera estadísticas en tiempo real en una única aplicación móvil accesible. Olvídate de documentos físicos y la información dispersa: todo está centralizado y fácilmente consultable."
+      "Administra horarios de docentes, asigna materias y grupos, y genera estadísticas en tiempo real en una única aplicación móvil accesible."
   },
   {
     icon: <Users className="h-8 w-8 text-green-600 mb-2" />,
     title: "Beneficio para Toda la Comunidad",
     description:
-      "Administrativos, docentes, estudiantes y padres pueden acceder y consultar horarios o asignaciones al instante, evitando superposiciones y asegurando una correcta distribución de las clases."
+      "Administrativos pueden acceder y consultar horarios o asignaciones al instante, evitando superposiciones y asegurando una correcta distribución de las clases."
   },
   {
     icon: <BarChart3 className="h-8 w-8 text-purple-600 mb-2" />,
@@ -31,6 +31,12 @@ const items = [
     title: "Respaldo Automático",
     description:
       "Copia de seguridad automática garantiza la integridad y disponibilidad de la información ante cualquier fallo técnico. La fiabilidad y la tranquilidad están aseguradas."
+  },
+  {
+    icon: <FileText className="h-8 w-8 text-orange-600 mb-2" />,
+    title: "Generación de Reportes en PDF",
+    description:
+      "Exporta horarios, listas y estadísticas en formato PDF con un solo clic, facilitando la distribución y el archivo de información académica."
   }
 ];
 
