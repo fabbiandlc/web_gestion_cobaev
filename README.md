@@ -1,58 +1,38 @@
-# Welcome to your Lovable project
+# Gestión de Horarios Escolar COBAEV
 
-## Project info
+## Descripción del proyecto
 
-**URL**: https://lovable.dev/projects/de196ea3-1309-4f33-a016-fe001bb69c97
+Plataforma móvil para la gestión centralizada y automatizada de horarios escolares en COBAEV. Optimiza tiempos, elimina conflictos y facilita la administración educativa para directivos y docentes. Permite organizar, consultar y administrar horarios de clases y docentes, con seguridad, reportes y acceso móvil para toda la comunidad educativa.
 
-## How can I edit this code?
+## Características principales
 
-There are several ways of editing your application.
+- **Gestión centralizada y eficiente:** Administra horarios de docentes, asigna materias y grupos, y genera estadísticas en tiempo real en una única aplicación móvil accesible.
+- **Beneficio para toda la comunidad:** Administrativos y docentes pueden consultar horarios y asignaciones al instante, evitando superposiciones y asegurando una correcta distribución de las clases.
+- **Panel de administración ágil:** Herramientas sencillas para actualizar información de docentes, materias y grupos en minutos, optimizando flujos de trabajo y minimizando tiempos en tareas repetitivas.
+- **Seguridad y privacidad de datos:** Medidas robustas para proteger información sensible, cumpliendo normativas de privacidad.
+- **Respaldo automático:** Copia de seguridad automática para garantizar la integridad y disponibilidad de la información.
+- **Generación de reportes en PDF:** Exporta horarios, listas y estadísticas en formato PDF con un solo clic.
+- **Automatización eficiente:** Organiza horarios optimizados en segundos, considerando todas las asignaciones y preferencias desde un solo panel.
+- **Panel docente:** Interfaz exclusiva para profesores con acceso rápido a horarios, materias y recursos asignados.
+- **Calendario integrado:** Vista diaria, semanal y mensual. Exporta horarios o consúltalos en tu móvil cuando lo necesites.
+- **Optimización de tiempo:** Minimiza tiempos muertos y facilita la gestión eficiente de las clases.
+- **Reportes detallados:** Acceso a estadísticas y reportes para la toma de mejores decisiones en la administración escolar.
 
-**Use Lovable**
+## Componentes principales
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/de196ea3-1309-4f33-a016-fe001bb69c97) and start prompting.
+- **HeroSection:** Presentación y llamada a la acción principal.
+- **CapturasDePantallaSection:** Galería interactiva de capturas de pantalla de la app.
+- **StatsSection:** Estadísticas de impacto y beneficios de la plataforma.
+- **VisionSection:** Visión general y ventajas competitivas.
+- **TestimonialsSection:** Testimonios de usuarios reales (directivos y administrativos).
+- **CTASection:** Sección de contacto y obtención de la aplicación.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Estructura de páginas
 
-**Use your preferred IDE**
+- **Index.tsx:** Página principal que integra todas las secciones anteriores.
+- **NotFound.tsx:** Página de error para rutas no encontradas.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## Tecnologías utilizadas
 
 - Vite
 - TypeScript
@@ -60,14 +40,26 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Instalación y uso
 
-Simply open [Lovable](https://lovable.dev/projects/de196ea3-1309-4f33-a016-fe001bb69c97) and click on Share -> Publish.
+1. Clona el repositorio:
+   ```sh
+   git clone <TU_GIT_URL>
+   cd <NOMBRE_DEL_PROYECTO>
+   ```
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+## Despliegue
 
-Yes, you can!
+Puedes desplegar el proyecto fácilmente desde la plataforma Lovable o tu proveedor favorito.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contacto
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Para más información o para obtener acceso a la aplicación, contacta a: fahuervodelacruz@hotmail.com
