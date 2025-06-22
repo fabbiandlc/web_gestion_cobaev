@@ -1,4 +1,5 @@
 import { CalendarCheck, Users, ShieldCheck, BarChart3, RefreshCcw } from "lucide-react";
+import AnimatedSection from "@/components/ui/animated-section";
 
 const items = [
   {
@@ -36,23 +37,32 @@ const items = [
 const VisionSection = () => (
   <section className="py-24 bg-gradient-to-br from-blue-50 to-green-50">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="text-center mb-14">
-        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-          Visión General
-        </h2>
-        <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Una plataforma todo en uno para transformar la gestión académica. Diseñada pensando en la experiencia de administrativos, docentes, estudiantes y familias.
-        </p>
-      </div>
+      <AnimatedSection animation="fade-in">
+        <div className="text-center mb-14">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
+            Visión General
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Una plataforma todo en uno para transformar la gestión académica. Diseñada pensando en la experiencia de administrativos, docentes, estudiantes y familias.
+          </p>
+        </div>
+      </AnimatedSection>
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {items.map((item, idx) => (
-          <div key={idx} className="bg-white/80 rounded-xl shadow-lg p-8 hover-scale animate-fade-in">
-            <div className="flex flex-col items-center mb-4">
-              {item.icon}
-              <h3 className="text-xl font-semibold text-foreground text-center">{item.title}</h3>
+          <AnimatedSection 
+            key={idx} 
+            animation="scale-in"
+            className={`animate-stagger-${Math.min(idx + 1, 5)}`}
+          >
+            <div className="bg-white/80 rounded-xl shadow-lg p-8 hover:scale-105 transition-transform duration-300">
+              <div className="flex flex-col items-center mb-4">
+                {item.icon}
+                <h3 className="text-xl font-semibold text-foreground text-center">{item.title}</h3>
+              </div>
+              <p className="text-base text-muted-foreground text-center">{item.description}</p>
             </div>
-            <p className="text-base text-muted-foreground text-center">{item.description}</p>
-          </div>
+          </AnimatedSection>
         ))}
       </div>
     </div>
