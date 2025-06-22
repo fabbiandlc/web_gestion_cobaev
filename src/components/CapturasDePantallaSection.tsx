@@ -388,7 +388,7 @@ const CapturasDePantallaSection = () => {
           {/* Botón de navegación izquierda */}
           <button
             onClick={navigateLeft}
-            className="absolute -left-12 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-gray-200 hover:bg-white hover:shadow-xl transition-all duration-200 opacity-80 hover:opacity-100"
+            className="hidden lg:block absolute -left-12 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-gray-200 hover:bg-white hover:shadow-xl transition-all duration-200 opacity-80 hover:opacity-100"
           >
             <ChevronLeft className="w-5 h-5 text-gray-600" />
           </button>
@@ -396,7 +396,7 @@ const CapturasDePantallaSection = () => {
           {/* Botón de navegación derecha */}
           <button
             onClick={navigateRight}
-            className="absolute -right-12 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-gray-200 hover:bg-white hover:shadow-xl transition-all duration-200 opacity-80 hover:opacity-100"
+            className="hidden lg:block absolute -right-12 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg border border-gray-200 hover:bg-white hover:shadow-xl transition-all duration-200 opacity-80 hover:opacity-100"
           >
             <ChevronRight className="w-5 h-5 text-gray-600" />
           </button>
