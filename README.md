@@ -58,7 +58,7 @@ Plataforma móvil para la gestión centralizada y automatizada de horarios escol
 
 ## Despliegue
 
-Puedes desplegar el proyecto fácilmente desde la plataforma Lovable o tu proveedor favorito.
+Puedes desplegar el proyecto fácilmente desde tu proveedor favorito.
 
 ## Contacto
 
